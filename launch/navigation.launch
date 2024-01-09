@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="navigator" pkg="orientation_navigation" type="navigate_orientation.py" output="screen"/>
+  <node name="scanner" pkg="orientation_navigation" type="scanning.py" output="screen"/>
+
+</launch>
